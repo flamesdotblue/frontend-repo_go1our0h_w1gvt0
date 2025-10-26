@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import PainPoints from './components/PainPoints';
 import BookingForm from './components/BookingForm';
 
 function Footer() {
@@ -13,8 +14,8 @@ function Footer() {
         </div>
         <div className="flex items-center gap-6">
           <a href="#funktioner" className="hover:text-gray-900">Funktioner</a>
+          <a href="#case" className="hover:text-gray-900">Utmaningar</a>
           <a href="#boka-demo" className="hover:text-gray-900">Boka demo</a>
-          <a href="#" className="hover:text-gray-900">Integritet</a>
         </div>
       </div>
     </footer>
@@ -28,6 +29,7 @@ export default function App() {
       <main>
         <Hero />
         <Features />
+        <PainPoints />
         <BookingForm />
       </main>
       <Footer />
